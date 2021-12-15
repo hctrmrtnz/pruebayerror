@@ -1,0 +1,30 @@
+#include<iostream>
+#include<stdlib.h>
+
+using namespace std;
+main(){
+	
+	int valor1,valor2,suma=0;
+	
+	cout<<"ingrese un valor.....  ";
+	
+	cin>>valor1;
+	cout<<"ingrese otro valor.....  ";
+
+	cin>>valor2;
+	cout<<endl;
+	suma=valor1+valor2;
+	
+	cout<<"la suma de   "<<endl;
+	cout<<"          "<<valor1<<endl;
+	cout<<"     +"<<endl;
+	cout<<"          "<<valor2<<endl;
+	cout<<"       ___________"<<endl;
+	cout<<"            "<<suma<<endl;
+	cout<<endl;
+	
+	system("pause");
+		
+	
+}
+	
